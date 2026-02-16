@@ -97,10 +97,10 @@ body {
 }
 .main-screen {
   position: relative;
-  background-image: url("/img/main-screen.png");
+  background-image: url("./img/main-screen.png");
   background-size: cover;
   @media (max-width: 767px) {
-    border-image: url("/img/Background_mobile.png");
+    border-image: url("./img/Background_mobile.png");
   }
 }
 .main-screen__start-button {
@@ -402,7 +402,7 @@ body {
   }
 }
 .the-important {
-  background-image: url("/img/twigs.png");
+  background-image: url("./img/twigs.png");
   background-size: cover;
 }
 .the-important__content {
